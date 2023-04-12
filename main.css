@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 16px 0px;
+    background-color: #1b0a58;
+    color: #fff;
+    border-bottom: 16px solid #273db9;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header button{
+    margin-left: 16px;
+    padding: 8px;
+    
+}
+
+button{    
+    background-color: #17c784;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;    
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #12865a;
+}
+
+form{
+    background-color: #313131;
+    padding: 24px 0px;
+    text-align: center;
+    color: #fff;
+    display: none;
+
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+form button, input{
+    padding: 8px;   
+}
+
+#botao-cancelar{
+    background-color: #da1751;
+}
+
+#botao-cancelar:hover{
+    background-color: #a71d46;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow: hidden;
+    
+}
+
+ul li img{
+    width: 100%;
+    
+}
+
+.overlay-imagem-link{
+
+    padding: 16px;
+    background-color: #000000c0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.overlay-imagem-link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#endereco-imagem-nova{
+    background-color: #000000;
+    border: none;
+    color: #fff;
+}
+
+ul li:hover .overlay-imagem-link{
+    opacity: 1;
+}
+
+li{
+    box-shadow: 0px 10px 20px 0px #000000;
+}
+
+body{
+    background-color: #111817;
+}
